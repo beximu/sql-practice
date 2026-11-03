@@ -1,0 +1,19 @@
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# -------- DuckDB 库文件（用 setup/01_build_db.py 自己生成） --------
+*.duckdb
+*.duckdb.wal
+
+# -------- Jupyter --------
+.ipynb_checkpoints/
+
+# -------- 编辑器 / 系统 --------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
